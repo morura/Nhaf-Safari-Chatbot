@@ -1,0 +1,9 @@
+{
+  "model": "llama2",
+  "created_at": "2026-01-01T00:00:00Z",
+  "message": {
+    "role": "assistant",
+    "content": "Botswana's Okavango Delta floods between June and August, creating spectacular water-based safari conditions."
+  },
+  "done": true
+}

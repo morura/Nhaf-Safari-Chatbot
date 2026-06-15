@@ -1,0 +1,47 @@
+/**
+ * Nomad Horizons Safari AI Chatbot — admin styles.
+ */
+
+.nhaf-admin-wrap .nav-tab-wrapper {
+	margin-bottom: 16px;
+}
+
+.nhaf-settings-form .form-table th {
+	width: 240px;
+}
+
+.nhaf-provider-panel {
+	display: none;
+	border: 1px solid #dcdcde;
+	border-radius: 4px;
+	padding: 0 16px 8px;
+	margin: 12px 0;
+	background: #fff;
+}
+
+.nhaf-provider-panel.is-active {
+	display: block;
+}
+
+.nhaf-test-result {
+	display: inline-block;
+	margin-left: 10px;
+	font-weight: 600;
+}
+
+.nhaf-test-result.is-success {
+	color: #008a20;
+}
+
+.nhaf-test-result.is-error {
+	color: #d63638;
+}
+
+.nhaf-leads-table select.nhaf-lead-status {
+	min-width: 120px;
+}
+
+.nhaf-leads-table td,
+.nhaf-leads-table th {
+	vertical-align: middle;
+}

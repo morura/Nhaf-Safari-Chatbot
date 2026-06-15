@@ -1,0 +1,16 @@
+{
+  "id": "chatcmpl-mock123",
+  "object": "chat.completion",
+  "model": "gpt-3.5-turbo",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "The Serengeti is best visited between June and October for the Great Migration. Would you like help planning a trip?"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": { "prompt_tokens": 120, "completion_tokens": 28, "total_tokens": 148 }
+}

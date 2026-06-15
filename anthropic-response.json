@@ -1,0 +1,14 @@
+{
+  "id": "msg_mock123",
+  "type": "message",
+  "role": "assistant",
+  "model": "claude-3-haiku-20240307",
+  "content": [
+    {
+      "type": "text",
+      "text": "Kruger National Park offers excellent Big Five sightings year-round, with the dry winter months (May-September) being ideal."
+    }
+  ],
+  "stop_reason": "end_turn",
+  "usage": { "input_tokens": 115, "output_tokens": 31 }
+}
