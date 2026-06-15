@@ -4,7 +4,7 @@ Tags: chatbot, ai, safari, leads, openai, anthropic, ollama
 Requires at least: 5.8
 Tested up to: 6.7
 Requires PHP: 7.4
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -39,6 +39,9 @@ Keys are encrypted at rest and only used server-side; they are never sent to the
 Only if you enable "Remove data on uninstall" under Security & Rate Limiting. Otherwise all data is preserved.
 
 == Changelog ==
+
+= 1.0.4 =
+* Fix: Add Git Updater headers (GitHub Plugin URI, Primary Branch: main, Release Asset) so updates resolve against the correct branch and release. Resolves "zipball/master Not Found" error.
 
 = 1.0.3 =
 * Fix: "Cookie check failed" error on settings save by using referer-independent nonce verification. Improves compatibility with servers/CDNs that strip HTTP_REFERER header.

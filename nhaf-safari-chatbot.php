@@ -3,7 +3,7 @@
  * Plugin Name:       Nomad Horizons Safari AI Chatbot
  * Plugin URI:        https://nomadhorizonsafrica.com/safari-ai-chatbot
  * Description:        AI-powered chatbot that answers visitor questions about African safaris using Safari.com affiliate data and LLM integration. Provides instant answers and booking guidance.
- * Version:           1.0.3
+ * Version:           1.0.4
  * Requires at least: 5.8
  * Requires PHP:      7.4
  * Author:            Nomad Horizons Africa
@@ -12,6 +12,9 @@
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       nhaf-safari-chatbot
  * Domain Path:       /languages
+ * GitHub Plugin URI: morura/Nhaf-Safari-Chatbot
+ * Primary Branch:    main
+ * Release Asset:     true
  *
  * @package NHAF_Safari_Chatbot
  */
@@ -24,7 +27,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 /**
  * Current plugin version.
  */
-define( 'NHAF_CHATBOT_VERSION', '1.0.3' );
+define( 'NHAF_CHATBOT_VERSION', '1.0.4' );
 
 /**
  * Plugin path / URL constants.
